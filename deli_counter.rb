@@ -5,14 +5,15 @@ def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
   else
-    katz_deli.each do |name|
-      customer = katz_deli.each_with_index do |name, index|
-        number = index + 1
-           message = "The line is currently: "
+    line_array = []
+      katz_deli.each do |name|
+        customer = katz_deli.each_with_index do |name, index|
+          number = index + 1
+           line_array << "#{number}. #{name} "
 
       end
-      message << "#{number}. #{name} "
-        puts message
+      message << 
+      
     end
 
   end
