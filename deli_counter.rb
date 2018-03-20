@@ -13,10 +13,10 @@ message = "The line is currently:"
            message << " #{number}. #{name}"
 
       end
-  puts message
+#  puts message
 
     end
-
+puts message
   end
 end
 
