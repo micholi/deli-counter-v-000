@@ -9,10 +9,10 @@ def line(katz_deli)
       katz_deli.each do |name|
         customer = katz_deli.each_with_index do |name, index|
           number = index + 1
-           line_array << "#{number}. #{name} "
+           current_line = line_array << "#{number}. #{name} "
 
       end
- puts "The line is currently #{line_array}"
+ puts "The line is currently #{current_line}"
 
     end
 
