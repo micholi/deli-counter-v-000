@@ -9,7 +9,7 @@ def line(katz_deli)
       customer = katz_deli.each_with_index do |name, index|
         number = index + 1
            intro = "The line is currently: #{number}. #{name} "
-              # message = intro << "#{number}. #{name} "
+              message = intro << "#{number}. #{name} "
 
       end
 message = intro << "#{number}. #{name} "
