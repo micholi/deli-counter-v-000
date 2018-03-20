@@ -10,9 +10,9 @@ def line(katz_deli)
         customer = katz_deli.each_with_index do |name, index|
           number = index + 1
            message << " #{number}. #{name}"
-            puts message
+            p
       end
- # puts message
+  puts message
 
     end
 
