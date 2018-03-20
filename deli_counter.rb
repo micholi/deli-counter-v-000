@@ -15,6 +15,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  # puts "The line is currently #{name}"
-
+  katz_deli.each_with_index do |name, index|
+    number = index + 1
+  end
 end
