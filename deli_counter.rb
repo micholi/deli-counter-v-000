@@ -5,7 +5,7 @@ def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
   else
-    current_line = ()
+    current_line = 
       katz_deli.each do |name|
         customer = katz_deli.each_with_index do |name, index|
           number = index + 1
