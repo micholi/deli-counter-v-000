@@ -8,9 +8,9 @@ def line(katz_deli)
     katz_deli.each do |name|
       customer = katz_deli.each_with_index do |name, index|
         number = index + 1
-           place_in_line = "#{number}. #{name} "
-            message = "The line is currently: #{place_in_line}"
-              message << "#{place_in_line}"
+           intro = "The line is currently: "
+              message = intro << "#{number}. #{name} "
+                puts message
       end
     end
   end
