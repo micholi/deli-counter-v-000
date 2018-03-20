@@ -12,10 +12,10 @@ def line(katz_deli)
            line_array << "#{number}. #{name} "
 
       end
-      puts "The line is currently #{line array}"
+      
 
     end
-
+puts "The line is currently #{line array}"
   end
 end
 
