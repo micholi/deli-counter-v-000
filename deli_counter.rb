@@ -16,8 +16,9 @@ message = "The line is currently:"
 #  puts message
 
     end
-puts message
+
   end
+  puts message
 end
 
 def take_a_number(katz_deli, name)
