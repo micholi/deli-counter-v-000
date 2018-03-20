@@ -6,17 +6,13 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     message = "The line is currently:"
-      # katz_deli.each do |name|
-        customer = katz_deli.each_with_index do |name, index|
-          number = index + 1
-           message << " #{number}. #{name}"
+      customer = katz_deli.each_with_index do |name, index|
+        number = index + 1
+          message << " #{number}. #{name}"
 
-      end
-        puts message
     end
-
-  # end
-
+        puts message
+  end
 end
 
 def take_a_number(katz_deli, name)
