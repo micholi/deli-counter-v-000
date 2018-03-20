@@ -6,7 +6,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     message = "The line is currently:"
-      katz_deli.each do |name|
+      # katz_deli.each do |name|
         customer = katz_deli.each_with_index do |name, index|
           number = index + 1
            message << " #{number}. #{name}"
@@ -15,7 +15,7 @@ def line(katz_deli)
         puts message
     end
 
-  end
+  # end
 
 end
 
