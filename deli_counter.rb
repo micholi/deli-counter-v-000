@@ -12,9 +12,9 @@ def line(katz_deli)
               intro << "#{number}. #{name} "
 
       end
-puts intro
-    end
 
+    end
+puts intro
   end
 end
 
