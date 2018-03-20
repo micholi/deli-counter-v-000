@@ -10,7 +10,7 @@ def line(katz_deli)
         number = index + 1
            intro = "The line is currently: #{number}. #{name} "
               message = intro << "#{number}. #{name} "
-                
+
       end
     end
     puts message
