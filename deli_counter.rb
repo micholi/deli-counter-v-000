@@ -13,12 +13,11 @@ message = "The line is currently:"
            message << " #{number}. #{name}"
 
       end
-#  puts message
-
+        puts message
     end
 
   end
-  puts message
+  
 end
 
 def take_a_number(katz_deli, name)
