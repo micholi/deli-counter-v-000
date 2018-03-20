@@ -11,7 +11,7 @@ def line(katz_deli)
           number = index + 1
 message = "The line is currently:"
            message << " #{number}. #{name}"
-            
+
       end
   puts message
 
