@@ -12,8 +12,9 @@ def line(katz_deli)
               message = intro << "#{number}. #{name} "
 
       end
+      puts message
     end
-    puts message
+
   end
 end
 
