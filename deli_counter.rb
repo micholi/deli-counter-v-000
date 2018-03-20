@@ -12,7 +12,7 @@ def line(katz_deli)
            current_line << "#{number}. #{name} "
 
       end
- puts "The line is currently #{current_line}"
+ puts "The line is currently: #{current_line}"
 
     end
 
