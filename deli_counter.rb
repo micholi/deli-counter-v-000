@@ -9,7 +9,7 @@ def line(katz_deli)
       katz_deli.each do |name|
         customer = katz_deli.each_with_index do |name, index|
           number = index + 1
-           message << "#{number}. #{name} "
+           message << "#{number}. #{name}"
 
       end
  puts message
